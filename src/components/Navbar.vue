@@ -22,7 +22,7 @@ function toggleDarkMode() {
         font-medium
         rounded-lg
       "
-      href="/"
+      href="#"
     >
       🎨 PaintDex
     </a>
@@ -57,7 +57,7 @@ function toggleDarkMode() {
       <li>
         <a
           class="inline-flex items-center px-3 py-2 rounded-lg"
-          href=""
+          href="https://github.com/OmarUsman/paintdex"
           target="_blank"
         >
           <vue-feather class="ml-1.5 w-4 h-4" type="github"></vue-feather>

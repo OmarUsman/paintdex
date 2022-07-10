@@ -7,13 +7,13 @@ function copyColorCode() {
 </script>
 
 <template>
-  <a
-    href="#"
+  <button
     class="
       relative
       block
       overflow-hidden
       rounded-xl
+      text-left
     "
     @click="copyColorCode()"
   >
@@ -24,5 +24,5 @@ function copyColorCode() {
       <h5 class="text-2xl font-bold">{{ color }}</h5>
       <p class="text-sm">{{ name }}</p>
     </div>
-  </a>
+  </button>
 </template>
